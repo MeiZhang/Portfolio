@@ -6,145 +6,41 @@
 }
 
 body{
-  font-size: 16px;
-  color: black;
+  font-size: 1rem;
+  color: #222222;
   background-color: white;
   font-family: sans-serif;
-
 }
 
-h1{
-  font-size:12px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+img{
+	width: 48px;
+	height: 48px;
+	display: inline-block;
 }
 
-a{
-	text-decoration: none;
-	color: black;
-}
-
-header{
-	width: 100%;
-	background-color:red;
-	height: auto;
-	padding: 20px 0 0 0;
-	text-align: center;
-	background-color: white;
-}
-
-/*navigation*/
 nav{
+	margin: 0;
+	padding:32px 0 0 0;
 	width: 100%;
-	height: auto;
-}
-
-#nav-logo{
-	width: 80px;
-	height: 80px;
-	border-radius: 40px;
-	background-color: rgb(177,201,79);
-    margin: 0 auto 0 auto;
-}
-
-
-.nav-item-work{
-	background-color: rgb(232,232,232);
-
-}
-
-.nav-item:hover{
-	border-bottom: none;
-	background-color: rgba(232,232,232, 0.3);
-}
-
-.nav-item-con {
-	padding: 10px 0 0 0;
-}
-.nav-item-con > li{
-	display: inline-block;
-	width: 100px;
-	line-height: 22px;
-	margin: 0 5px 0 5px;
-	padding: 4px 0 0 4px;
-	transition: background-color 1s ease-out;
-}
-
-/*main content*/
-main{
-	width: 100%;
-	display: -webkit-flex;
-    display: flex;
-    -webkit-flex-direction: row /* works with row or column */
-    flex-direction: row;
-    -webkit-align-items: center;
-    align-items: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    background-color: rgb(232,232,232);
-}
-
-article{
-	width: 768px;
-	padding-bottom: 30px;
-}
-
-.exp-con{
-	margin: 30px 0 30px 0;
-}
-
-.exp-con > p{
-	font-size:14px;
-	font-style: italic;
-	text-align: center;
-}
-
-#experience > section{
-	width: 100%;
-}
-
-.exp-grid{
-	width: 100%;
-}
-
-.exp-grid-item{
-	width: 25%;
-	padding: 3px 3px 3px 3px;
-	display: inline-block;
-	float: left;
-
-}
-
-
-.exp-grid-item:after{
-	clear:both;
-}
-
-.exp-grid-item a,img {
-	width:100%;
-	
-}
-.exp-grid-item img:hover{
-	box-shadow: 0px 3px 6px rgba(0,0,0,0.2);
-}
-
-
-footer{
-	font-size: 14px;
-	background-color: white;
-	width: 100%;
-	text-align: center;
-	line-height: 22px;
-}
-
-footer section{
-	max-width: 620px;
-	margin: 20px 0 10px 0;
-	padding: 20px 10px 10px 10px;
-	margin-right: auto;
+	max-width: 980px;
 	margin-left: auto;
+	margin-right: auto;
 }
 
+ul{
+	width:100%;
+	display: flex;
+}
+li{
+	font-size: 1.4rem;
+	display:flex;
+	align-items: flex start;
+	display: inline-flex;
+}
+span{
+	padding:14px 0 0 0;
+	margin: 0;
+}
 /*footer*/
 .medium{
 	border-bottom: 2px solid rgb(0,171,108);
