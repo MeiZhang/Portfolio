@@ -17,30 +17,26 @@ body{
 img{
 	width: 48px;
 	height: 48px;
-	display: inline-block;
 }
 
 nav{
 	margin: 0;
-	padding:32px 0 0 0;
-	width: 100%;
+	padding:28px 0 0 0;
 	max-width: 980px;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 ul{
-	width:100%;
 	display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-items: center;
 }
 li{
-	font-size: 1.1rem;
-	display:flex;
-	align-items: flex start;
+	font-size: 1rem;
 	display: inline-flex;
-	margin: 0 16px 0 16px;
+	margin: 0 12px 0 12px;
 }
 
 li:first-child {
@@ -48,16 +44,14 @@ li:first-child {
 }
 
 a{
-	
+	text-decoration: none;
+	color:#222222;
+
 }
-span{
-	padding:18px 0 0 0;
-	margin: 0;
-}
+
 article{
 	margin: 50px 0 0 0;
 	height: 800px;
-	width: 100%;
 	max-width: 980px;
 	background-color: black;
 	margin-left: auto;
