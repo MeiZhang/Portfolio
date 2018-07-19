@@ -41,6 +41,10 @@ li{
 	align-items: flex start;
 	display: inline-flex;
 }
+
+li:first-child {
+	flex-grow: 1;
+}
 span{
 	padding:18px 0 0 0;
 	margin: 0;
@@ -48,94 +52,5 @@ span{
 .right{
 	margin: 0 16px 0 16px;
 }
-/*footer*/
-.medium{
-	border-bottom: 2px solid rgb(0,171,108);
-}
-
-.medium:hover, .medium:active{
-	background-color: rgba(50,252,141,0.3);
-
-	
-}
-
-.instagram{
-	border-bottom: 2px solid rgb(173,59,158);
-}
-
-.instagram:hover, .instagram:active{
-	background-color: rgba(173,59,158,0.2);
-}
-
-.dribble{
-	border-bottom: 2px solid rgb(232,76,136);
-}
-
-.dribble:hover, .dribble:active{
-	background-color: rgba(232,76,136,0.2);
-	
-}
-
-.tumblr{
-	border-bottom: 2px solid rgb(68,86,107);
-
-}
-
-.tumblr:hover, .tumblr:active{
-	background-color: rgba(68,86,107,0.2);
-	
-}
-
-.linkedin{
-	border-bottom: 2px solid rgb(0,123,182);
-
-}
-
-.linkedin:hover, .linkedin:active{
-	background-color: rgba(0,123,182,0.2);
-
-	
-}
-
-.social-media-link{
-    transition: border-bottom .5s ease-out;
-    transition: background-color .5s ease-out;
-
-}
-.social-media-link:hover, .social-media-link:active{
-	border-bottom: none;
-
-}
 
 
-/* small, medium and large devices only */
-@media (min-width: 768px) {
- 
- article{
-	width: 768px;
-}
-
-.exp-grid-item{
-	width: 25%;
-	padding: 3px 3px 3px 3px;
-
-}
-
-}
-
-
-
-/* xsmall devices only */
-@media (max-width: 767px) {
- 
- article{
-	width: 100%;
-}
-
-.exp-grid-item{
-	width: 50%;
-	padding: 3px 3px 3px 3px;
-
-}
-
-}
