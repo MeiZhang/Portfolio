@@ -40,17 +40,27 @@ li{
 	display:flex;
 	align-items: flex start;
 	display: inline-flex;
+	margin: 0 16px 0 16px;
 }
 
 li:first-child {
 	flex-grow: 1;
 }
+
+a{
+	
+}
 span{
 	padding:18px 0 0 0;
 	margin: 0;
 }
-.right{
-	margin: 0 16px 0 16px;
+article{
+	margin: 50px 0 0 0;
+	height: 800px;
+	width: 100%;
+	max-width: 980px;
+	background-color: black;
+	margin-left: auto;
+	margin-right: auto;
 }
-
 
