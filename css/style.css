@@ -7,7 +7,7 @@
 }
 
 body{
-  font-size: 1rem;
+  font-size: 0.9rem;
   color: #222222;
   background-color: white;
   font-family: 'Nunito', sans-serif;
@@ -15,8 +15,8 @@ body{
 }
 
 img{
-	width: 48px;
-	height: 48px;
+	width: 46px;
+	height: auto;
 }
 
 nav{
@@ -30,23 +30,35 @@ nav{
 ul{
 	display: flex;
 	flex-flow: row nowrap;
-	justify-content: center;
-	align-items: center;
+	align-items: stretch;
+	
+
 }
 li{
 	display: inline-flex;
-	margin: 0 16px 0 16px;
+	margin: 0 10px 0 10px;
 	font-weight: 700;
+	align-items: stretch;
+	font-size: 1rem;
+	
 	
 }
 
 li:first-child {
 	flex-grow: 1;
+	margin-left: 4px;
+}
+
+li:last-child{
+	margin-right: 4px;
 }
 
 a{
+	display: flex;
 	text-decoration: none;
 	color:#222222;
+	align-items: center;
+	
 
 }
 
