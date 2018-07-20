@@ -20,7 +20,7 @@
     <header>
       <nav>
         <ul>
-          <li><a href="https://meizhang.github.io/Portfolio"><img src="image/homepage-icon.png" alt="icon"></a></li>
+          <li><a href="https://meizhang.github.io/Portfolio"><img id="icon" src="image/homepage-icon.png" alt="icon"></a></li>
           <li><a href="#UX-design"><span class="right">UX Design</span></a></li>
           <li><a href="#Data-visualization"><span class="right">Data Visualization</span></a></li>
           <li><a href="#Resume"><span class="right">Resume</span></a></li>
@@ -28,13 +28,23 @@
       </nav>
     </header>
    <main>
-     <artcile id="about-me"><p>Hi, I am Mei,  a data-driven UX designer who enjoys solving problems by putting herself into users' shoes.<br></br>These days I am brushing up JavaScript and making beautiful data visualization work.  </p></artcile>
+     <artcile id="about-me"><p>Hi, I am Mei,  a data-driven UX designer who enjoys solving problems by putting herself into users' shoes.</p></artcile>
      <article id="UX-design"></article>
      <article id="Data-visualization"></article>
      <article id="Resume"></article>
    </main>
    <footer>
    </footer>
+   <!-- JS -->
+   <script>
+     function hover("icon") {
+     element.setAttribute('src', 'image/homepage-icon-hover.png');
+      }
+
+     function unhover("icon") {
+     element.setAttribute('src', 'image/homepage-icon.png');
+     }    
+   </script>
    <!-- Google Analytics -->
     <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
