@@ -7,7 +7,7 @@
 }
 
 body{
-  font-size: 0.9rem;
+  font-size: 1.2rem;
   color: #222222;
   background-color: white;
   font-family: 'Nunito', sans-serif;
@@ -96,4 +96,61 @@ section{
 .coming-soon p{
 	font-size: 1.4rem;
 	text-align: center;
+}
+
+/*ux design page style*/
+.ux-article{
+	display:flex;
+	flex-direction: column;
+	height: auto;
+	padding: 0 12px 0 12px;
+}
+.ux-article section{
+	display: flex;
+	flex-wrap: nowrap;
+	margin: 0 0 48px 0;
+	height: auto;
+
+}
+.ux-article img{
+	width: 100%;
+	padding-top: 12px;
+}
+.ux-article h1{
+	padding: 18px 0 0 0;
+	text-align: center;
+	font-size:2rem;
+	font-weight: 700;
+}
+
+.ux-article h2{
+	text-align: left;
+	font-weight: 700;
+	font-size: 1.2rem;
+	line-height: 2rem;
+}
+
+.ux-article p{
+	text-align: left;
+	line-height: 2rem;
+}
+.summary-text{
+	font-size: 1.8rem;
+}
+
+.image-right{
+	display:flex;
+	flex-direction: row;
+}
+.image-right div{
+	width:50%;
+}
+.image-right p, h2{
+	width:100%;
+}
+.image-right > img{
+	width:50%;
+	height: auto;
+	align-self: flex-start;
+	padding:0 0 0 12px;
 }
