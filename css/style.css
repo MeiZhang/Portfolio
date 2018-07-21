@@ -12,89 +12,56 @@ body{
   background-color: white;
   font-family: 'Nunito', sans-serif;
   font-weight: 400;
+  margin: 0;
+  max-width: 980px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-img{
-	width: 48px;
+/*nav bar style*/
+nav{
+	padding:26px 0 0 0;
+}
+
+nav img{
+	width: 40px;
 	height: auto;
 }
 
-#myhover:hover {
-
-	background:url(background/image/url2.jpg) no-repeat;
-	
-	}
-
-nav{
-	margin: 0;
-	padding:28px 0 0 0;
-	max-width: 980px;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-ul{
+nav ul{
 	display: flex;
 	flex-flow: row nowrap;
 	align-items: stretch;
-	
-
 }
-li{
+nav li{
 	display: inline-flex;
 	margin: 0 10px 0 10px;
 	font-weight: 700;
-	align-items: stretch;
 	font-size: 1rem;
-	
-	
 }
-
-li:first-child {
+nav li:first-child {
 	flex-grow: 1;
-	margin-left: 4px;
 }
 
-li:last-child{
-	margin-right: 4px;
-}
-
-a{
+nav a{
 	display: flex;
 	text-decoration: none;
 	color:#222222;
 	align-items: center;
-	
-
 }
 
 a:hover{
-	opacity: 0.8;
-	border-style: outset;
-    border-bottom:solid #FFEC00 4px;
-	
-	
+	opacity: 0.7;
 }
 
-article{
+/*home page style*/
+
+section{
 	margin: 48px 0 0 0;
 	height: 800px;
-	max-width: 980px;
-	background-color: black;
-	margin-left: auto;
-	margin-right: auto;
 }
 
-p{
+.intro-text{
 	font-size: 1.8rem;
-	text-align: left;
-	padding: 64px 16px 0 16px;
-	margin-left: auto;
-	margin-right: auto;
-	max-width: 980px;
-	font-weight: 400;
-}
-p::first-letter{
-	font-weight: 700;
-	font-size: 3rem;
+	padding: 24px 16px 0 16px;
 }
