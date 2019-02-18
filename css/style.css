@@ -37,7 +37,7 @@ nav li{
 	display: inline-flex;
 	margin: 0 32px 0 16px;
 	font-weight: 700;
-	font-size: 1rem;
+	font-size: 0.9rem;
 }
 
 /*
@@ -53,6 +53,13 @@ nav a{
 	align-items: center;
 }
 
+h2{
+	font-size:1.8rem;
+	margin-top: 24px;
+	margin-left: 16px;
+	padding-bottom: 4px;
+}
+
 
 
 /*nav hover style, credit to Will King*/
@@ -63,16 +70,24 @@ nav a{
   background-size: 100% 0.2em;
   background-position: 0 92%;
   transition: background-size 0.3s ease-in;
+  color:#222;
 }
 
 .underline-magical:hover {
     background-size: 100% 100%;
+    color:#222;
   }
+
+.underline-magical:click {
+    background-size: 100% 100%;
+    color:#222;
+  }
+
 
 /*home page style*/
 
 section{
-	margin: 48px 0 0 0;
+	margin: 32px 0 0 0;
 	display: flex;
 	flex-wrap: wrap;
 	height: auto;
@@ -80,8 +95,8 @@ section{
 }
 
 .intro-text{
-	font-size: 1.3rem;
-	padding: 24px 16px 0 16px;
+	font-size: 1.4rem;
+	padding: 18px 16px 0 16px;
 }
 
 .thumbnail-container{
@@ -89,6 +104,7 @@ section{
 	display: inline;
 	padding-left: 12px;
 	padding-right: 12px;
+	margin-top: 18px;
 }
 
 .thumbnail{
@@ -110,14 +126,9 @@ section{
       font-size: 1.4rem;
       line-height: 1.6rem;
       margin-top: 6px;
+      margin-bottom: 32px;
 }
-.thumbnail p{
-	color: #727272;
-    font-size: 1.1rem;
-    margin-bottom: 32px;
-    margin-top: 4px;
 
-}
 .coming-soon{
 	width: 100%;
 	background-color: #eeeeee;
@@ -189,7 +200,11 @@ section{
 
 #resume{
 	margin-top:100px;
-	margin-bottom:400px;
+	margin-bottom:200px;
+}
+
+#blog{
+	margin-top:100px;
 }
 
 .download-button{
@@ -222,5 +237,13 @@ a{
 	text-decoration: none;
 }
 
+.ex-link{
+	color:#4C7EA7;
+	text-decoration:underline;
+}
 
+.ex-link:hover{
+	
+	color:#5199D5;
+}
 
