@@ -36,7 +36,7 @@ nav ul{
 nav li{
 	display: inline-flex;
 	margin: 0 28px 0 16px;
-	font-weight: 700;
+	font-weight: 500;
 	font-size: 1rem;
 }
 
@@ -151,7 +151,7 @@ section{
 .ux-article section{
 	display: flex;
 	flex-wrap: nowrap;
-	margin: 0 0 48px 0;
+	margin: 0 0 60px 0;
 	height: auto;
 
 }
@@ -160,7 +160,7 @@ section{
 	padding-top: 12px;
 }
 .ux-article h1{
-	padding: 18px 0 0 0;
+	padding: 12px 0 0 0;
 	text-align: center;
 	font-size:1.8rem;
 	font-weight: 700;
@@ -169,15 +169,16 @@ section{
 .ux-article h2{
 	text-align: left;
 	font-weight: 700;
-	font-size: 1.2rem;
+	font-size: 1.4rem;
 	line-height: 2rem;
 	margin-left: 0px;
+	margin-bottom: 8px;
 }
 
 .ux-article p{
 	text-align: left;
 	line-height: 1.8rem;
-	font-size: 1.1rem;
+	font-size: 1.2rem;
 }
 
 .summary-text{
@@ -258,4 +259,7 @@ footer h4{
 	margin-bottom: 20px;
 }
 
-
+.my-role{
+	margin-top: 24px;
+	margin-bottom: 12px;
+}
