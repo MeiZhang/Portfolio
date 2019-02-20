@@ -151,13 +151,13 @@ section{
 .ux-article section{
 	display: flex;
 	flex-wrap: nowrap;
-	margin: 0 0 64px 0;
+	margin: 0 0 80px 0;
 	height: auto;
 
 }
 .ux-article img{
 	width: 100%;
-	padding-top: 12px;
+	padding-top: 24px;
 }
 .ux-article h1{
 	padding: 12px 0 0 0;
@@ -172,8 +172,8 @@ section{
 	font-weight: 700;
 	font-size: 1.4rem;
 	line-height: 2rem;
+	padding-bottom: 6px;
 	margin-left: 0px;
-	margin-bottom: 8px;
 }
 
 .ux-article p{
