@@ -10,7 +10,7 @@ body{
   font-size: 1.2rem;
   color: #222222;
   background-color: white;
-  font-family: 'Nunito', sans-serif;
+  font-family:'Nunito',Times,courier, sans-serif;
   font-weight: 300;
   margin: 0;
   max-width: 800px;
@@ -36,7 +36,7 @@ nav ul{
 nav li{
 	display: inline-flex;
 	margin: 0 28px 0 16px;
-	font-weight: 500;
+	font-weight: 700;
 	font-size: 1rem;
 }
 
@@ -95,7 +95,7 @@ section{
 }
 
 .intro-text{
-	font-size: 1.4rem;
+	font-size: 1.2rem;
 	padding: 12px 16px 0 16px;
 }
 
@@ -108,12 +108,12 @@ section{
 }
 
 .thumbnail{
-	margin: 6px;
+	margin: 4px;
 	width: 48%;
 	height: auto;
 	border-radius: 90px;
-	display: inline-block;
-	min-width: 360px;
+	display: inline-flex;
+	min-width: 300px;
 }
 
 .thumbnail img{
@@ -124,7 +124,7 @@ section{
 .thumbnail h4{
       color: #222;
       font-size: 1.4rem;
-      line-height: 1.6rem;
+      line-height: 1.8rem;
       margin-top: 6px;
       margin-bottom: 32px;
 }
@@ -151,7 +151,7 @@ section{
 .ux-article section{
 	display: flex;
 	flex-wrap: nowrap;
-	margin: 0 0 60px 0;
+	margin: 0 0 64px 0;
 	height: auto;
 
 }
@@ -164,6 +164,7 @@ section{
 	text-align: center;
 	font-size:1.8rem;
 	font-weight: 700;
+	margin-top: 24px;
 }
 
 .ux-article h2{
@@ -177,7 +178,7 @@ section{
 
 .ux-article p{
 	text-align: left;
-	line-height: 1.8rem;
+	line-height: 2rem;
 	font-size: 1.2rem;
 }
 
@@ -203,12 +204,12 @@ section{
 }
 
 #resume{
-	margin-top:100px;
-	margin-bottom:200px;
+	margin-bottom:300px;
 }
 
 #blog{
 	margin-top:100px;
+	margin-bottom: 100px;
 }
 
 .download-button{
@@ -256,10 +257,17 @@ a{
 	margin-top: 6px;
 }
 footer h4{
-	margin-bottom: 20px;
+	text-align: left;
+	font-weight: 700;
+	font-size: 1.4rem;
+	line-height: 2rem;
+	margin-left: 0px;
+	margin-bottom: 8px;
 }
 
 .my-role{
-	margin-top: 24px;
-	margin-bottom: 12px;
+	margin-bottom: 28px;
 }
+
+
+
