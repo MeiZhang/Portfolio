@@ -28,6 +28,8 @@ nav img{
 	height: auto;
 }
 
+
+
 nav ul{
 	display: flex;
 	flex-flow: row nowrap;
@@ -119,6 +121,10 @@ section{
 .thumbnail img{
 	width: 100%;
 	height: auto;
+}
+
+.thumbnail:hover{
+	opacity: 70%;
 }
 
 .thumbnail h4{
