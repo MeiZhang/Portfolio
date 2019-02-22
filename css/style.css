@@ -281,8 +281,9 @@ footer h4{
 }
 
 video{
-margin-top:-24px;
+margin-top: 24px;
 height: auto;
 widows: auto;
+background-color: #222;
 }
 
