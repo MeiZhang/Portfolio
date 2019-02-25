@@ -127,7 +127,7 @@ section{
 .thumbnail:hover{
 	opacity: 0.5;
 	filter: alpha(opacity=50);
-	transition-duration: 0.7s;
+	transition-duration: 0.6s;
 }
 
 .thumbnail h4{
