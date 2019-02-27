@@ -10,12 +10,13 @@ body{
   font-size: 1.2rem;
   color: #222222;
   background-color: white;
-  font-family:'Nunito',Times,courier, sans-serif;
+  font-family: 'Open Sans', Times,courier, sans-serif;
   font-weight: 300;
   margin: 0;
-  max-width: 800px;
+  max-width: 980px;
   margin-left: auto;
   margin-right: auto;
+  font-weight: 300;
 }
 
 /*nav bar style*/
@@ -104,18 +105,18 @@ section{
 .thumbnail-container{
 	width: 100%;
 	display: inline;
-	padding-left: 12px;
-	padding-right: 12px;
 	margin-top: 18px;
+	padding: 0 0 0 0;
 }
 
 .thumbnail{
-	margin: 4px;
-	width: 48%;
+	width: 49.3%;
+	padding-left: 2px;
 	height: auto;
 	border-radius: 90px;
 	display: inline-flex;
-	min-width: 300px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .thumbnail img{
