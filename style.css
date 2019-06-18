@@ -1,0 +1,149 @@
+/*generic style*/
+*{
+    font-size:1rem;
+    color: #222222;
+    font-family: 'Open Sans', Times,courier, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+}
+
+body{
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    position: static;
+    padding:0 10px 0 10px;
+  }
+
+ul{
+    list-style-type: none;
+  }
+
+section{
+    width:100%;
+}
+
+.large-text{
+    font-size: 1.6rem;
+    line-height:2.4rem;
+}
+/*nav bar style*/
+header{
+    position: relative;
+    width:100%;
+    min-height: 60px;
+}
+header ul{
+    position: absolute;
+    right: 0px;
+    margin: 20px 0 20px 0;
+}
+header li{
+    display: inline-block;
+    margin-left: 40px;
+}
+header a{
+    text-decoration: none;
+    font-weight:700;
+    font-size: 0.9rem;
+    color:#979797;
+}
+
+/*intro style*/
+h1{
+    font-size: 3.2rem;
+    font-weight: 700;
+}
+
+#home-intro{
+    margin-top:100px;
+}
+
+#home-intro p {
+    margin-top:8px;
+}
+.emoji-container{
+    font-size:3rem;
+    padding-left:12px;
+}
+
+/*general style home section*/
+
+.home-section{
+margin-top:40px;
+margin-bottom:80px;
+}
+
+h2{
+     font-size: 0.9rem;
+     font-weight: 700;
+     margin:24px 0 24px 0;
+     color:#979797;
+}
+
+/*about-section*/
+h3{
+    font-size:1rem;
+    font-weight: 700;
+}
+#about p{
+    margin-bottom:32px;
+    line-height: 1.4rem;
+}
+
+h4{
+    font-weight:700;
+}
+
+#about-experience{
+    width: 50%;
+    display: inline-block;
+    padding-right: 20%;
+    min-width: 320px;
+}
+#about-education{
+    width:26%;
+    display:inline-block;
+    min-width:210px;
+    vertical-align:top;
+}
+
+#about button{
+    display:block;
+    border: none;
+    color: white;
+    background-color: #222;
+    padding: 7px 13px 8px 13px;
+    font-size: 0.9rem;
+    border-radius: 2px;
+}
+
+#about button:hover{
+    background-color:#979797;
+    transition-duration: 0,6s;
+}
+
+/*work-section*/
+#work h2{
+    visibility: hidden;
+}
+
+/*contact-section*/
+#contact a{ 
+    text-decoration: none;
+}
+
+/*footer-style*/
+footer{
+    height: 60px;
+    margin-top:100px;
+}
+footer p{
+    margin-top:20px;
+    margin-left:auto;
+    margin-right:auto;
+}
+footer span{
+    margin: 0 5px 0 5px;
+}
