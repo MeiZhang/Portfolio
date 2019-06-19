@@ -9,12 +9,21 @@
 }
 
 body{
-    max-width: 1024px;
-    margin-left: auto;
-    margin-right: auto;
-    position: static;
-    padding:0 10px 0 10px;
+    width: 100%;
+    position: relative;
   }
+
+a{
+    cursor:url(cursor-image.png), auto;
+}
+
+button{
+    cursor:url(cursor-image.png), auto;
+}
+
+label{
+    cursor:url(cursor-image.png), auto;
+}
 
 ul{
     list-style-type: none;
@@ -28,26 +37,54 @@ section{
     font-size: 1.6rem;
     line-height:2.4rem;
 }
-/*nav bar style*/
-header{
+/*main-content-general*/
+.center{
+    max-width: 1024px;
+    margin: 48px auto 32px auto;
+    text-align: center;
+}
+
+/*tabs*/
+.tab-container{
+    clear: both;
+
+}
+
+.tabs{
+    list-style-type:none;
     position: relative;
-    width:100%;
-    min-height: 60px;
 }
-header ul{
+
+.tabs li{
+    float: left;
+}
+
+.tabs label{
+    color: #a7a7a7;
+    font-weight: 700;
+    padding-right:48px;
+}
+
+.tabs label:hover{
+    color:#FEBE0D;
+}
+
+.tabs li>input{
+    display:none;
+}
+.tabs .tab-content{
+    display:none;
     position: absolute;
-    right: 0px;
-    margin: 20px 0 20px 0;
+    left: 0;
 }
-header li{
-    display: inline-block;
-    margin-left: 40px;
+
+/*tabs function*/
+.tabs li>input:checked + label{
+    color: #000;
 }
-header a{
-    text-decoration: none;
-    font-weight:700;
-    font-size: 0.9rem;
-    color:#979797;
+
+.tabs li>input:checked ~ .tab-content{
+    display:block;
 }
 
 /*intro style*/
@@ -124,6 +161,10 @@ h4{
     transition-duration: 0,6s;
 }
 
+.gradient{
+
+}
+
 /*work-section*/
 #work h2{
     visibility: hidden;
@@ -135,15 +176,70 @@ h4{
 }
 
 /*footer-style*/
+/*footer-generic-style*/
 footer{
-    height: 60px;
-    margin-top:100px;
+    width: 100%;
+    margin-top:64px;
+    position: absolute;
+    bottom: 0;
+    height: auto;
+    background-color: #000;
 }
+
+
 footer p{
-    margin-top:20px;
-    margin-left:auto;
-    margin-right:auto;
+    color: white;
+    font-size: 0.9rem;
+    line-height: 1.7rem;
 }
+
+footer a{
+    font-size: 0.9rem;
+    color:white;
+    text-decoration: none;
+    margin-right:40px;
+    line-height: 1.7rem;
+}
+
 footer span{
     margin: 0 5px 0 5px;
+    font-size:0.8rem;
 }
+
+footer button{
+    background: none;
+	color: inherit;
+	border: none;
+	font: inherit;
+    outline: inherit;
+    color:#FEBE0D;
+    font-size:0.9rem;
+    display: inline;
+}
+
+/*footer-flex-layout-style*/
+.center-container{
+    max-width: 1024px;
+    margin:0 auto 0 auto;
+    padding: 0 2% 0 2%;
+    position: relative;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.half-container{
+    width:47%;
+    vertical-align: top;
+    margin:48px 4% 0 0;
+    min-width: 288px;
+}
+
+.half-right{
+    margin-right:0px;
+}
+
+.blur{
+    opacity: 0.6;
+}
+
+

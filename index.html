@@ -2,83 +2,118 @@
 <!-- welcome to the code of Mei's portfolio -->
 <html lang="en">
   <head>
+    <!-- page-basic -->
     <title>Zhang Mei</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="author" content="Mei Zhang">
     <meta name="Copyright" content="Copyright Mei Zhang. All Rights Reserved.">
     <meta name="description" content="The portfolio of Mei Zhang in 2019." />
+
+    <!-- view point -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0">
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118972038-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-118972038-1');
+    </script>
+
     <!-- css -->
-    <link rel="stylesheet" type="text/css" media="all" href="style.css"> 
+    <link rel="stylesheet" type="text/css" media="all" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" media="all" href="css/style.css"> 
+
     <!-- font -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
-    <!-- Javascript -->   
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon-2.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="favicon.png" sizes="16x16" /> 
+
+    <!-- Javascript-tabs-->
+    <script>
+            function openTab(evt, tabName) {
+              var i, tabcontent, tablinks;
+              tabcontent = document.getElementsByClassName("tabcontent");
+              for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+              }
+              tablinks = document.getElementsByClassName("tablinks");
+              for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace("active", "");
+              }
+              document.getElementById(tabName).style.display = "block";
+              evt.currentTarget.className += " active";
+            }
+            </script>
   </head>
+  
   <body>
-      <header>
-            <ul>
-                    <li><a href="#work">work</a></li>
-                    <li><a href="#writing">writing</a></li>
-                    <li><a href="#about">about</a></li>
-                    <li><a href="#contact">contact</a></li>
-            </ul>
-      </header>
-      <section id="home-intro">
-          <h1>Hi, I am Zhāng Méi<span class="emoji-container">&#128075;</span></h1>
-          <p class="large-text">a product designer passionate in crafting great user experience. 
-          <br>I believe in staying humble, hungry and honest. 
-          <br>And I am obsessed with coconut.</p>
-      </section>
-      <section id="work" class="home-section">
-          <h2>work</h2>
-          <div style="width:100%; height:400px; background-color:black"></div>
-          <ul>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-          </ul>
+      <header></header>
+      <div class="tab">
+            <button class="tablinks active" onclick="openTab(event, 'work')">Work</button>
+            <button class="tablinks" onclick="openTab(event, 'writing')">Writing</button>
+            <button class="tablinks" onclick="openTab(event, 'about')">About</button>
+      </div>
+          
+      <div id="work" class="tabcontent">
+          <div class="center-container">
+             <div class="half-container half-left">
+                <h2><span class="emoji-container">&#128075;</span>Hi, I am <br><span class="large-text">Zhāng Méi</span></h2>
+             </div>
+             <div class="half-container half-right right-text">
+                <p class="large-text">a product designer in love with crafting great user experience. I believe in staying humble, hungry and honest. And I am obsessed with coconut.</p>
+            </div>
+        </div>
+      </div>
+          
+      <div id="writing" class="tabcontent">
+            <div class="center-container">
+                    <div class="half-container half-left">
+                       <h2><span class="emoji-container">🖋️</span>I enjoy <br><span class="large-text">Writing</span></h2>
+                    </div>
+                    <div class="half-container half-right right-text">
+                       <p class="large-text">a product designer in love with crafting great user experience. I believe in staying humble, hungry and honest. And I am obsessed with coconut.</p>
+                   </div>
+            </div>
+      </div>
+          
+      <div id="about" class="tabcontent">
+            <div class="center-container">
+                    <div class="half-container half-left">
+                       <h2><span class="emoji-container">📖</span>I am learning <br><span class="large-text">Data design</span></h2>
+                    </div>
+                    <div class="half-container half-right right-text">
+                       <p class="large-text">a product designer in love with crafting great user experience. I believe in staying humble, hungry and honest. And I am obsessed with coconut.</p>
+                   </div>
+            </div>
+      </div>
 
-      </section>
-      <section id="writing" class="home-section">
-          <h2>writing</h2>
-          <div style="width:100%; height:400px; background-color:black"></div>
-          <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-      </section>
-      <section id="about" class="home-section">
-          <h2>about</h2>
-          <div id="about-experience">
-          <h3>Senior product designer - freelance</h3>
-          <p>Digging into user insights and creating designs for mobile apps and web software to solve problems for clients </p>
-          <h3>UX designer at Catawiki.com</h3>
-          <p>Delivering design solutions for business growth with a data-driven mindset in a start-up e-commerce environment </p>
-          <h3>Interaction designer at Philips</h3>
-          <p>Developing a design language system used for healthcare and consumer products and working closely with engineers</p>
-          </div>
-          <div id="about-education">
-          <h4>MSc in information studies</h4>
-          <p>University of Amsterdam, graduating in 2021</p>
-          <h4>BSc in industrial design</h4>
-          <p>Eindhoven university of technology, cum laude graduate </p>
-          </div>
-          <button type="submit" onclick="window.open('mei-zhang-cv.pdf')">Grab my resume </button>
-      </section>
-      <section id="contact" class="home-section">
-          <h2>contact</h2>
-          <p class="large-text">I'm living in Amsterdam, the Netherlands with beautiful canals views when it is not raining. Feel free to reach out and say hello.</p>  
-          <a href="https://www.linkedin.com/in/zhangmei/" target="blank">Linkedin</a> 
-          <a href="https://medium.com/@designmei" target="blank">Medium</a>  
-          <a href="https://codepen.io/meizhang/" target="blank">CodePen</a>
-          <a href="https://github.com/MeiZhang" target="blank">Github</a>
-
-      </section>
       <footer>
-           <p>Design and code with<span>❤</span>© 2019</p>
+          <div class="center-container">
+
+          <section id="footer-contact" class="half-container">
+             <p style="font-weight:bold;">Check me out</p>
+             <a href="https://www.linkedin.com/in/zhangmei/" target="blank" class="footer-link">Linkedin</a> 
+             <a href="https://medium.com/@designmei" target="blank" class="footer-link">Medium</a>  
+             <a href="https://codepen.io/meizhang/" target="blank" class="footer-link">CodePen</a>
+             <a href="https://github.com/MeiZhang" target="blank" class="footer-link">Github</a>
+             <a href = "mailto: designmei@hotmail.com" style="color:#FEBE0D" class="footer-link">designmei@hotmail.com</a>
+          </section>
+
+          <section id="footer-intro" class="half-container half-right">
+                <p>Hi. I am Zhang Mei, a product designer in love with crafting great user experience. I believe in staying humble, hungry and honest.</p>
+                <button type="submit" onclick="window.open('mei-zhang-cv.pdf')" class="footer-link" >Grab my resume </button>
+          </section>
+
+         </div>
+
+          <section id="copyright" class="center blur">
+           <p>Design and code with<span>❤️</span>© Mei Zhang 2019</p>
+          </section>
+         
       </footer>
   </body>

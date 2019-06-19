@@ -1,0 +1,249 @@
+/*generic style*/
+*{
+    font-size:1rem;
+    color: #222222;
+    font-family: 'Open Sans', Times,courier, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+}
+
+body{
+    width: 100%;
+  }
+
+a{
+    cursor:url(cursor-image.png), auto;
+}
+
+button{
+    cursor:url(cursor-image.png), auto;
+}
+
+label{
+    cursor:url(cursor-image.png), auto;
+}
+
+ul{
+    list-style-type: none;
+  }
+
+
+/*main-content-general*/
+
+/*tabs*/
+.tab {
+    overflow: hidden;
+    margin:48px auto 0 auto;
+    max-width: 1024px;
+    height: 64px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  /* Style the buttons inside the tab */
+  .tab button {
+    background: none;
+	color: inherit;
+	border: none;
+    outline: inherit;
+    outline: none;
+    font-size:1rem;
+    font-weight: 700;
+    color: #a7a7a7;
+    margin-right: 48px;
+    flex-wrap: wrap;
+
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    color: #FEBE0D;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    color: #000;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    margin: 48px auto 0 auto;
+  }
+
+  #work{
+      display:block;
+  }
+
+
+/*general style home section*/
+.center{
+    max-width: 1024px;
+    margin: 0 auto 0 auto;
+    padding:48px 0 36px 0;
+    text-align: center;
+}
+.center-container{
+    max-width: 1024px;
+    margin:0 auto 0 auto;
+    padding: 0 3% 0 3%;
+    position: relative;
+    display:flex;
+    flex-wrap: wrap;
+    vertical-align: bottom;
+}
+
+.half-container{
+    width:47%;
+    vertical-align: top;
+    margin:48px 6% 0 0;
+    min-width: 288px;
+    vertical-align: bottom;
+
+}
+
+.half-left{
+    text-align: right;
+}
+
+.half-right{
+    margin-right:0px;
+    margin-right:0;
+}
+
+.center{
+    max-width: 1024px;
+    margin: 0 auto 0 auto;
+    padding:48px 0 36px 0;
+    text-align: center;
+}
+
+.tabcontent p{
+    font-size:1.2rem;
+    line-height: 2.1rem;
+    font-weight: 300;
+}
+
+.emoji-container{
+    font-size:3rem;
+    margin-right: 18px;
+}
+
+.right-text{
+    padding-top:1rem;
+}
+
+h2{
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 3.4rem;
+}
+
+.large-text{
+  font-size: 3.4rem;
+  font-weight: 700;
+}
+
+/*about-section*/
+h3{
+    font-size:1rem;
+    font-weight: 700;
+}
+
+h4{
+    font-weight:700;
+}
+
+#about-experience{
+    width: 50%;
+    display: inline-block;
+    padding-right: 20%;
+    min-width: 320px;
+}
+#about-education{
+    width:26%;
+    display:inline-block;
+    min-width:210px;
+    vertical-align:top;
+}
+
+#about button{
+    display:block;
+    border: none;
+    color: white;
+    background-color: #222;
+    padding: 7px 13px 8px 13px;
+    font-size: 0.9rem;
+    border-radius: 2px;
+}
+
+#about button:hover{
+    background-color:#979797;
+    transition-duration: 0,6s;
+}
+
+.gradient{
+
+}
+
+/*contact-section*/
+#contact a{ 
+    text-decoration: none;
+}
+
+/*footer-style*/
+/*footer-generic-style*/
+footer{
+    width: 100%;
+    margin-top:64px;
+    margin-bottom:0;
+    height: auto;
+    background-color: #000;
+}
+
+
+footer p{
+    color: white;
+    font-size: 0.9rem;
+    line-height: 1.6rem;
+}
+
+footer a{
+    font-size: 0.9rem;
+    color:white;
+    text-decoration: none;
+    margin-right:40px;
+    line-height: 1.6rem;
+}
+
+.footer-link:hover{
+    text-decoration:none;
+}
+
+footer span{
+    margin: 0 5px 0 5px;
+    font-size:0.8rem;
+}
+
+footer button{
+    background: none;
+	color: inherit;
+	border: none;
+	font: inherit;
+    outline: inherit;
+    color:#FEBE0D;
+    font-size:0.9rem;
+    display: inline;
+}
+
+.footer-link:hover{
+ opacity: 0.8;
+}
+
+/*footer-flex-layout-style*/
+
+
+.blur{
+    opacity: 0.5;
+}
