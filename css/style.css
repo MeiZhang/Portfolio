@@ -160,6 +160,54 @@ h2{
     color: #FEBE0D;
 }
 /*about-section*/
+.grey-background{
+    background-color: #f2f2f2;
+    padding-bottom:80px;
+    padding-top:40px;
+    margin-top:80px;
+}
+.resume-text-right
+{
+    padding-top: 0;
+}
+
+.resume-text-right p{
+    font-size:1.1rem;
+    line-height: 2rem;
+    margin: 0 0 48px 0;
+}
+.resume-text-right h4{
+    font-size:1.4rem;
+    font-weight: 700;
+    line-height: 2rem;
+
+}
+
+.resume-text-left h3{
+    font-size:1.1rem;
+    font-weight: 700;
+    color: #a7a7a7;
+    padding-top:0.3rem;
+}
+
+
+#about button{
+    display:block;
+    border: none;
+    color: white;
+    background-color: #222;
+    padding: 7px 13px 8px 13px;
+    font-size: 0.9rem;
+    border-radius: 2px;
+    font-weight: 700;
+}
+
+#about button:hover{
+    background-color: #FEBE0D;
+    transition-duration: 0,6s;
+}
+
+
 h3{
     font-size:1rem;
     font-weight: 700;
@@ -182,20 +230,7 @@ h4{
     vertical-align:top;
 }
 
-#about button{
-    display:block;
-    border: none;
-    color: white;
-    background-color: #222;
-    padding: 7px 13px 8px 13px;
-    font-size: 0.9rem;
-    border-radius: 2px;
-}
 
-#about button:hover{
-    background-color:#979797;
-    transition-duration: 0,6s;
-}
 
 .gradient{
 
@@ -210,7 +245,6 @@ h4{
 /*footer-generic-style*/
 footer{
     width: 100%;
-    margin-top:64px;
     margin-bottom:0;
     height: auto;
     background-color: #000;
