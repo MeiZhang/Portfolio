@@ -14,6 +14,7 @@ body{
 
 a{
     cursor:url(cursor-image.png), auto;
+    text-decoration: none;
 }
 
 button{
@@ -34,9 +35,9 @@ ul{
 /*tabs*/
 .tab {
     overflow: hidden;
-    margin:48px auto 0 auto;
+    margin:56px auto 64px auto;
     max-width: 1024px;
-    height: 64px;
+    height: 48px;
     display: flex;
     justify-content: flex-end;
   }
@@ -69,7 +70,7 @@ ul{
   /* Style the tab content */
   .tabcontent {
     display: none;
-    margin: 48px auto 0 auto;
+    margin: 0px auto 0 auto;
   }
 
   #work{
@@ -81,7 +82,7 @@ ul{
 .center{
     max-width: 1024px;
     margin: 0 auto 0 auto;
-    padding:48px 0 36px 0;
+    padding:0px 0 36px 0;
     text-align: center;
 }
 .center-container{
@@ -95,10 +96,10 @@ ul{
 }
 
 .half-container{
-    width:47%;
+    width:44%;
     vertical-align: top;
-    margin:48px 6% 0 0;
-    min-width: 288px;
+    margin:6% 3% 0 3%;
+    min-width: 320px;
     vertical-align: bottom;
 
 }
@@ -120,9 +121,9 @@ ul{
 }
 
 .tabcontent p{
-    font-size:1.2rem;
-    line-height: 2.1rem;
-    font-weight: 300;
+    font-size:1.1rem;
+    line-height: 2rem;
+    font-weight: 400;
 }
 
 .emoji-container{
@@ -145,6 +146,19 @@ h2{
   font-weight: 700;
 }
 
+.work-thumbnail{
+    background-color: red;
+    height: 400px;
+}
+
+/*writing-section*/
+.in-page-link{
+    color: #a7a7a7;
+    font-weight: 500;
+}
+.in-page-link:hover{
+    color: #FEBE0D;
+}
 /*about-section*/
 h3{
     font-size:1rem;
