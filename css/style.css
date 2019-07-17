@@ -147,9 +147,15 @@ h2{
 }
 
 .work-thumbnail{
-    background-color:#000;
-    height: 200px;
+    background-color: white;
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.08);
+    position: relative;
+    overflow: hidden;
+    text-align: left;
+    display:flex;
 }
+
+
 
 /*writing-section*/
 .in-page-link{
@@ -159,11 +165,56 @@ h2{
 .in-page-link:hover{
     color: #FEBE0D;
 }
+
+.writing-img{
+    width: 100px;
+    height: 100px;
+    margin: 12px;
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+    opacity: 0.7;
+}
+
+.work-thumbnail h3{
+    font-size:1.4rem;
+    line-height: 1.8rem;
+    text-align: left;
+}
+
+.work-thumbnail a{
+    display: flex;
+}
+
+.work-thumbnail a:hover img{
+    background-color: #FEBE0D;
+    transition-duration: 1s;
+    -webkit-filter: grayscale(0%); 
+    filter: grayscale(0%);
+    opacity: 1;
+}
+
+.cards-test{
+    display:inline;
+    margin-right:12px;
+    margin-bottom:12px;
+    margin-top:12px;
+}
+
+.cards-test p{
+    font-size: 1rem;
+    line-height: 1.4rem;
+    margin-top:12px;
+    opacity: 0.5;
+
+}
+
+
+
 /*about-section*/
 .grey-background{
     background-color: #f2f2f2;
     padding-bottom:80px;
-    padding-top:40px;
+    padding-top:20px;
     margin-top:80px;
 }
 .resume-text-right
