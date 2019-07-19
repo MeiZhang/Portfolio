@@ -160,14 +160,30 @@ h2{
 .work-img{
     margin: 0px;
     padding: 0px;
-    width: 100%;
+    width: 50%;
     height: auto;
     -webkit-filter: grayscale(100%); 
     filter: grayscale(100%);
     opacity: 0.6;
 }
 
+
+.work-card-text{
+    margin: 12px 12px 12px 12px;
+    width:50%;
+}
+
+.work-card-text p{
+    font-size: 1rem;
+    line-height: 1.4rem;
+    opacity: 0.5;
+    margin-bottom:8px;
+
+}
+
 /*writing-section*/
+
+
 .in-page-link{
     color: #a7a7a7;
     font-weight: 500;
