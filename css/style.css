@@ -329,7 +329,7 @@ footer{
 }
 
 
-footer p{
+footer p,strong{ 
     color: white;
     font-size: 0.9rem;
     line-height: 1.6rem;
@@ -375,5 +375,90 @@ footer button{
 }
 
 /*product-page-style*/
+.return-button{
+    max-width: 100%;
+    text-align: right;
+    background-color:rgba(255,255,255,0.6);
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 12px;
 
+}
+
+.return-button a{
+    font-weight:600;
+    opacity: 0.5;
+    font-size:0.9rem;
+}
+
+.return-button a:hover{
+    opacity: 1;
+    transition-duration: 0.8s;
+}
+
+.work-heading{
+    width: 100%;
+}
+
+.work-heading img{
+    width:100%;
+}
+
+.work-heading h1{
+    margin-top:24px;
+    text-align: center;
+    font-size:1.8rem;
+    font-weight: 700;
+}
+
+.text-container{
+    display:flex;
+}
+
+.middle-body{
+    max-width: 980px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:64px;
+
+}
+.work-intro h2{
+    margin-top:24px;
+    font-size:1.4rem;
+}
+
+.work-intro p{
+    line-height: 1.6rem;
+}
+.text-container-margin{
+    width: 40%;
+}
+.text-container-content{
+    width:60%;
+}
+
+.half-layout{
+    display:flex;
+    align-content:flex-end;
+}
+
+.half-layout-width{
+    width:50%;
+}
+
+.half-layout-width img{
+    width:100%;
+}
+
+.half-layout-width p,h3{
+    padding-left: 40px;
+    min-width:380px;
+    line-height: 1.6rem;
+}
+
+.half-layout-width h3{
+    font-size:1.2rem;
+    font-weight: 700;
+}
 

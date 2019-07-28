@@ -1,0 +1,136 @@
+<!doctype html>
+<!-- welcome to the code of Mei's portfolio -->
+<html lang="en">
+  <head>
+    <!-- page-basic -->
+    <title>Zhang Mei is a product designer</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Mei Zhang">
+    <meta name="copyright" content="Copyright Mei Zhang. All Rights Reserved.">
+    <meta name="keywords" content="UX design, product design, portfolio." />
+    <meta name="description" content="The portfolio of Mei Zhang in 2019." />
+
+    <!-- view point -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0">
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118972038-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-118972038-1');
+    </script>
+
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" media="all" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" media="all" href="css/style.css"> 
+
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,700,900&display=swap" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon-2.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="favicon.png" sizes="16x16" /> 
+
+    <!-- Javascript-tabs-->
+    <script>
+            function openTab(evt, tabName) {
+              var i, tabcontent, tablinks;
+              tabcontent = document.getElementsByClassName("tabcontent");
+              for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+              }
+              tablinks = document.getElementsByClassName("tablinks");
+              for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace("active", "");
+              }
+              document.getElementById(tabName).style.display = "block";
+              evt.currentTarget.className += " active";
+            }
+    </script>
+    
+    <!--[if lt IE 9]>
+       <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  
+  <body>
+    <header>
+       <nav class="return-button">
+         <a href="index.html">🚪Close</a>
+       </nav>
+    </header>   
+
+    <main>
+      <section class="work-heading">
+        <div class="middle-body">
+        <img src="img/new-user-banner.jpg" alt="new-user-engagement-header">
+        <h1>New User Engagement</h1>
+        </div>
+      </section>
+
+      <section class="work-intro">
+        <div class="middle-body">
+          <div class="text-container">
+          <div class="text-container-margin"></div>
+          <div class="text-container-content">
+          <h2>Goals & My role</h2>
+          <p>The goal is to convert new users (not logged-in users) to unique bidders on Catawiki.com. Working on my own, making it easier for new users to find lots they are interested in is my key responsibility.</p>
+
+          <h2>Success metrics:</h2>
+          <p>Increase on unique bidders and user registration.</p>
+
+          <h2>Define the problem</h2>
+          <p>Before looking into Google analytics data, I asked myself three questions to help myself discover where was the problem:</p>
+          </div>
+          </div>
+        </div>
+
+      </section>
+
+      <section class="work-into">
+        <div class="middle-body half-layout">
+          <div class="half-layout-img half-layout-width">
+            <img src="img/new-user-banner.jpg">
+          </div>
+          <div class="half-layout-text half-layout-width">
+            <h3>
+                Level 3: Popular auctions in the same category </h3>
+            <p>The 2nd most close option is other popular auctions. As the algorithm is ready, an experiment was carried and the result was significant and positive. </p>
+          </div>
+        </div>
+
+      </section>
+
+
+    </main>
+
+      
+    <footer>
+          <div class="center-container">
+
+           <section id="footer-intro" class="half-container">
+                        <p>Hi. I am Zhang Mei, a product designer in love with crafting great user experience. I believe in staying humble, hungry and honest.</p>
+                        <button type="submit" onclick="window.open('mei-zhang-cv.pdf')" class="footer-link" >Grab my resume </button>
+           </section>
+
+          <section id="footer-contact" class="half-container half-right">
+             <p style="font-weight:bold;">Check me out</p>
+             <a href="https://www.linkedin.com/in/zhangmei/" target="blank" class="footer-link">Linkedin</a> 
+             <a href="https://medium.com/@designmei" target="blank" class="footer-link">Medium</a>  
+             <a href="https://codepen.io/meizhang/" target="blank" class="footer-link">CodePen</a>
+             <a href="https://github.com/MeiZhang" target="blank" class="footer-link">Github</a>
+             <a href = "mailto: designmei@hotmail.com" style="color:#FEBE0D" class="footer-link">designmei@hotmail.com</a>
+          </section>
+
+         </div>
+
+          <section id="copyright" class="center blur">
+           <p><strong>Design and code with<span>❤️</span>© Mei Zhang 2019</strong></p>
+          </section>
+         
+    </footer>
+  </body>
+  </html>
