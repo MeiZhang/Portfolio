@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <!-- welcome to the code of Mei's portfolio -->
 <html lang="en">
   <head>
@@ -35,21 +35,6 @@
     <link rel="icon" type="image/png" href="favicon.png" sizes="16x16" /> 
 
     <!-- Javascript-tabs-->
-    <script>
-            function openTab(evt, tabName) {
-              var i, tabcontent, tablinks;
-              tabcontent = document.getElementsByClassName("tabcontent");
-              for (i = 0; i < tabcontent.length; i++) {
-                tabcontent[i].style.display = "none";
-              }
-              tablinks = document.getElementsByClassName("tablinks");
-              for (i = 0; i < tablinks.length; i++) {
-                tablinks[i].className = tablinks[i].className.replace("active", "");
-              }
-              document.getElementById(tabName).style.display = "block";
-              evt.currentTarget.className += " active";
-            }
-    </script>
     
     <!--[if lt IE 9]>
        <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -64,45 +49,194 @@
     </header>   
 
     <main>
-      <section class="work-heading">
-        <div class="middle-body">
-        <img src="img/new-user-banner.jpg" alt="new-user-engagement-header">
-        <h1>New User Engagement</h1>
-        </div>
-      </section>
+        <section class="work-heading">
+            <div class="middle-body">
+                <img src="img/new-user-banner.jpg" alt="new-user-engagement-header">
+                <h1>New User Engagement</h1>
+            </div>
+        </section>
 
-      <section class="work-intro">
-        <div class="middle-body">
-          <div class="text-container">
-          <div class="text-container-margin"></div>
-          <div class="text-container-content">
-          <h2>Goals & My role</h2>
-          <p>The goal is to convert new users (not logged-in users) to unique bidders on Catawiki.com. Working on my own, making it easier for new users to find lots they are interested in is my key responsibility.</p>
+        <section class="work-intro">
+            <div class="middle-body">
+                <div class="text-container">
+                    <div class="text-container-margin"></div>
+                    <div class="text-container-content">
+                        <h4>GOALS & MY ROLE</h4>
+                        <p>The goal is to convert new users (anonymous users) to unique bidders on Catawiki.com. Working on my own, making it easier for new users to find lots they are interested in was my key responsibility.</p>
 
-          <h2>Success metrics:</h2>
-          <p>Increase on unique bidders and user registration.</p>
+                        <h4>SUCCESS METRICS:</h4>
+                        <p>Increase on unique bidders and user registration.</p>
+                    </div>
+                </div>
+            </div>
 
-          <h2>Define the problem</h2>
-          <p>Before looking into Google analytics data, I asked myself three questions to help myself discover where was the problem:</p>
-          </div>
-          </div>
-        </div>
+        </section>
 
-      </section>
+        <section class="work-intro">
+            <div class="middle-body">
+                <img src="img/google-data.jpg" alt="new-user-engagement-GA">
 
-      <section class="work-into">
-        <div class="middle-body half-layout">
-          <div class="half-layout-img half-layout-width">
-            <img src="img/new-user-banner.jpg">
-          </div>
-          <div class="half-layout-text half-layout-width">
-            <h3>
-                Level 3: Popular auctions in the same category </h3>
-            <p>The 2nd most close option is other popular auctions. As the algorithm is ready, an experiment was carried and the result was significant and positive. </p>
-          </div>
-        </div>
+                <div class="text-container">
+                    <div class="text-container-margin"></div>
+                    <div class="text-container-content">
+                        <h2>Define the problem</h2>
+                        <p>
+                            Before looking into Google analytics data, I asked myself three questions to help myself discover where was the problem:
+                        </p>
+                        <h3>1. Where the majority of new users land?</h3>
+                        <p>Majority of new users (1.1M) lands on closed lot detail pages, but around 79% of them drop off.</p>
 
-      </section>
+                        <h3>2. Why the majority of new users lands on closed lot detail pages?</h3>
+                        <p>
+                            Most of the users land on closed lot detail pages by organic search. That means they are looking for a specific object and then find out Catawiki.
+                        </p>
+
+                        <h3>3. Why the drop-off is very high? </h3>
+                        <p> An auction run 7 days and when users come from organic search, the lots are closed. That makes it impossible for new users to engage with the product.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="work-intro">
+            <div class="middle-body half-layout">
+                <div class="half-layout-img half-layout-width">
+                    <img src="img/closed-lot.jpg">
+                </div>
+                <div class="half-layout-text half-layout-width">
+                    <h3>
+                        The problem:
+                    </h3>
+                    <p>The majority of new users lands on closed lot detail pages. However, 77% of them drop off. The reason might be that closed lot detail pages are not clear about if a lot is closed. And they are not engaging for visitors as bidding is not possible.</p>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="work-intro">
+            <div class="middle-body">
+                <img src="img/new-user-sketch.jpg">
+
+                <div class="text-container">
+                    <div class="text-container-margin"></div>
+                    <div class="text-container-content">
+                        <h2>Sketch & ideation</h2>
+                        <p>When the problem was clear, I started sketching. The ideas were based on level of relevance for recommendations. There are two design assumptions in the ideas:<br>1. Be clear to users that the lot is closed<br>2. Give them many other options to continue browsing and exploring on Catawiki.</p>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="work-intro">
+            <div class="middle-body">
+                <img src="img/experiment.jpg">
+
+                <div class="text-container">
+                    <div class="text-container-margin"></div>
+                    <div class="text-container-content">
+                        <h2>Step-by-step A/B experiments</h2>
+                        <p>To validate the designs step by step instead of pushing all at once, I got to know what worked and what still needed improvement.</p>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="work-intro">
+            <div class="middle-body half-layout">
+                <div class="half-layout-img half-layout-width">
+                    <img src="img/level1.jpg">
+                </div>
+                <div class="half-layout-text half-layout-width">
+                    <h3>
+                        Level 1: Closed lots section
+                    </h3>
+                    <p>Make it clear that the lot is closed. And at the same time, bring new users to the category page so that they can browse through other open lots in the same category.</p>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="work-intro">
+            <div class="middle-body half-layout">
+                <div class="half-layout-img half-layout-width">
+                    <img src="img/level2.jpg">
+                </div>
+                <div class="half-layout-text half-layout-width">
+                    <h3>
+                        Level 2: Similar lots
+                    </h3>
+                    <p>
+                        It is very obvious that showing a similar lot that is open for auction is the ideal situation. However, the A/B experiment was not significant. The reason could be that it is hard to find a similar lot as Catawiki is selling unique objects. And, the algorithm was not ideal.
+                    </p>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="work-intro">
+            <div class="middle-body half-layout">
+                <div class="half-layout-img half-layout-width">
+                    <img src="img/level3.jpg">
+                </div>
+                <div class="half-layout-text half-layout-width">
+                    <h3>
+                        Level 3: Popular auctions in the same category
+                    </h3>
+                    <p>
+                        The 2nd most close option is other popular auctions. As the algorithm is ready, an experiment was carried and the result was significant and positive.
+                    </p>
+                </div>
+            </div>
+
+        </section>
+
+
+        <section class="work-intro">
+            <div class="middle-body half-layout">
+                <div class="half-layout-img half-layout-width">
+                    <img src="img/level4.jpg">
+                </div>
+                <div class="half-layout-text half-layout-width">
+                    <h3>
+                        Level 4: All categories
+                    </h3>
+                    <p>Why do not tell new users what Catawiki has? Bring the all category grid on the closed lot page can help new users explore other categories. And this experiment was very successful.</p>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="work-intro">
+            <div class="middle-body">
+                <img src="img/footer-banner.png">
+
+                <div class="text-container">
+                    <div class="text-container-margin"></div>
+                    <div class="text-container-content">
+                        <h2>The next step</h2>
+                        <p>The next step is to dig deeper into "what a new user would like to have as an alternative of the closed lot they searched for?" For example, if a user searched a Rolex man watch, he or she might also be interested in car models. Developing an algorithm for this case is very important so that users do not need to browse more and just find something they like.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="work-intro lesson-learned">
+            <div class="middle-body">
+
+                <div class="text-container">
+                    <div class="text-container-margin"></div>
+                    <div class="text-container-content">
+                        <h2>Lessons learned</h2>
+                        <p><em>Be friend with data: </em> When I got the task at the beginning, I did not know how to start. Asking questioning and also look into the Google analytics data helped me discover the real problem. Reading the data also made it easier for me to know where I can make big impact.<br><br /></p>
+                        <p><em>Step by step testing: </em> During the ideation, I had many ideas and it seemed okay to just put them alive. However, by testing step by step, I gained a better understanding of what worked and what did not.<br><br /></p>
+                        <p><em>Explore more patterns: </em> To have a quick implementation, I used existing UI components. However, it would be nice if I could explore more patterns that might be more pleasant for new users to discovery new things. This topic is a follow-up now and I will start working on it with the DEV team.<br><br /></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
 
 
     </main>
